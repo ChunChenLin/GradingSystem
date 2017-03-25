@@ -4,7 +4,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class UI {
+	/**
+	 * @uml.property  name="iD"
+	 */
 	private String ID;
+	/**
+	 * @uml.property  name="name"
+	 */
 	private String Name;
 	
 	public UI() throws NoSuchIDExceptions, NoSuchCommandExceptions {

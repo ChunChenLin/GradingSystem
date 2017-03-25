@@ -8,8 +8,18 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class GradeSystems {
+	/**
+	 * @uml.property  name="grades"
+	 * @uml.associationEnd  multiplicity="(0 -1)" elementType="Grades"
+	 */
 	private LinkedList<Grades> grades;
+	/**
+	 * @uml.property  name="weights" multiplicity="(0 -1)" dimension="1"
+	 */
 	private double[] weights;
+	/**
+	 * @uml.property  name="tmpWeights" multiplicity="(0 -1)" dimension="1"
+	 */
 	private double[] tmpWeights;
 	private static final String FILENAME = "gradeinput.txt";
 	
